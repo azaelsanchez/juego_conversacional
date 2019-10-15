@@ -13,7 +13,7 @@ while(accion!="X"){
     accion=prompt();
     habitacion.moverJugador(accion,personaje);
     if(personaje.x == objeto.x && personaje.y == objeto.y){
-        console.log("Has muerto");
+        console.log("Me mori wei");
         accion = "X";
 }else habitacion.pintarMapa();
     }
