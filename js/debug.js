@@ -3,7 +3,7 @@ habitacion.iniciarDimensiones(5,5);
 habitacion.rellenarMapaVacio();
 //iniciamos personaje
 personaje.iniciarPosicion(2,4);
-objeto.iniciarPosicion(3,1);
+objeto.iniciarPosicion(ajo(1,5), ajo(1,5));
 habitacion.colocarElm(personaje.x,personaje.y,personaje.icono);
 habitacion.colocarElm(objeto.x,objeto.y,objeto.icono);
 habitacion.pintarMapa();
